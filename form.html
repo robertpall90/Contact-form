@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+
+<body>
+    <script type="text/javascript" src="validation.js"></script>
+    <section class="banner" id="BNR" hidden>
+        <section class="leftBanner">
+            <img class="okLogo" src="https://cdn.pixabay.com/photo/2016/01/20/18/59/confirmation-1152155_960_720.png">
+            <p class="bannerText">Thank you for contacting us, </p>
+            <div id="nameOf"></div>
+        </section>
+        <section class="rightBanner">
+            <img class="xLogo"
+                src="https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-round-1/254000/47-512.png">
+        </section>
+    </section>
+    <form name="mainForm">
+        <img id="image" src="https://www.almamater.ro/wp-content/uploads/2018/10/No-image-available.jpg" />
+        <input type="text" placeholder="First name" class="textbox" name="firstName" id="fN"><br><br>
+        <input type="text" placeholder="Last name" class="textbox" name="lastName" id="lN"><br><br>
+        <p id="gen">Gender</p>
+        <input class="gender" name="gender" type="radio" value="M" id="M">
+        <label for="M">M</label><br>
+        <input class="gender" name="gender" type="radio" value="F" id="F" s>
+        <label for="F">F</label><br><br>
+        <textarea rows="5" class="textbox" name="textArea" id="tA"
+            placeholder="Your message here..."></textarea><br><br>
+        <button type="button" class="button" onclick="validate()">Submit</button>
+    </form>
+
+</body>
+
+</html>

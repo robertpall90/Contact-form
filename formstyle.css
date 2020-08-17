@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.banner {
+    color: green;
+    background-color: #d1ffd2;
+    border: lightgray solid 3px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left:150px;
+    margin-right:150px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 600px;
+    visibility: hidden;
+}
+
+.leftBanner{
+    display: flex;
+    align-items: center;
+}
+
+.okLogo{
+width: 20px;
+margin-left:10px;
+margin-right: 10px;
+
+}
+
+.bannerText{
+    display: inline-block;
+}
+
+.rightBanner {
+    display: flex;
+    align-items: center;
+}
+.xLogo{
+    width: 20px;
+    margin-right: 10px;
+}
+
+form{
+    margin: 10px 150px 0 150px;
+    min-width: 600px;
+    border: grey solid 3px;
+    padding: 10px 10px 10px 50px;
+}
+
+#image{
+    height: 250px;
+    float: right;
+}
+
+.textbox {
+    min-width: 250px;
+    color: grey;
+}
+
+#M,#F{
+    margin-left: 70px;
+}
+
+#gen{
+    width:60px;
+}
+
+.button {
+    width: 70px;
+    height: 25px;
+    color: white;
+    background-color: #0d98ba;
+    border-radius: 6px;
+    position: relative;
+    left: 180px;
+
+}
